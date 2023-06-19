@@ -9,6 +9,12 @@ namespace TestGit02
             Console.WriteLine("Hello World!");
             Console.WriteLine("Yasser");
             Console.WriteLine("Mian (in Dev Branch");
+
+            TestClass tc = new TestClass();
+
+            Console.WriteLine(tc.x);
+            tc.x = 200;
+            Console.WriteLine(tc.x);
         }
     }
 }

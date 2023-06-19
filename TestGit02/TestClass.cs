@@ -8,6 +8,6 @@ namespace TestGit02
 {
     class TestClass
     {
-        int x;
+        public int x=100;
     }
 }
